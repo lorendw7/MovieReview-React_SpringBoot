@@ -1,0 +1,12 @@
+.movie-poster {
+  height: 35rem;
+  border: 1px solid gold;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.movie-poster > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
